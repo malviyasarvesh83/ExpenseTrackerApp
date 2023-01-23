@@ -1,0 +1,38 @@
+h1 {
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    background: #1d2630;
+    color: white;
+}
+
+table {
+    border-color: white;
+}
+
+td {
+    padding: 8px 35px;
+}
+
+.col {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: green;
+}
+
+tr {
+    background-color: aqua;
+    color: black;
+    text-align: center;
+}
+
+input {
+    font-size: 16px;
+}
+
+#msg {
+    color: green;
+}

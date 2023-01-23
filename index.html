@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Expense Tracker App</h1>
+    <fieldset>
+      <legend>
+        <h2>Expense Tracker</h2>
+      </legend>
+      <form id="form">
+        <label>Expense Amount</label><br />
+        <input type="text" id="amount" name="amount" /><br />
+        <label>Expense Description</label><br />
+        <input type="text" id="desc" name="desc" /><br />
+        <label>Expense Category</label><br />
+        <input type="text" id="cat" name="cat" /><br /><br>
+        <input
+          type="button"
+          value="Submit"
+          id="btn"
+          onclick="Submit()"
+        />
+        <input type="reset" value="reset">
+      </form>
+    </fieldset>
+    <br>
+    <div id="msg"></div><br>
+
+    <fieldset>
+        <legend>
+            <h2>Data from Local Storage</h2>
+        </legend>
+        <table border="2" id="table">
+            <tr>
+                <td class="col">Expense Amount</td>
+                <td class="col">Expense Description</td>
+                <td class="col">Expense Category</td>
+                <td class="col">Action</td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <script src="expenseTracker.js"></script>
+  </body>
+</html>
